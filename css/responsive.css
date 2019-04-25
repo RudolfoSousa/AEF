@@ -1,0 +1,20 @@
+@media(max-width: 1366px){
+	.webdoor{
+		height: 123vh;
+	}
+	.container{
+		width: 85%;
+	}
+	.webdoor .content{
+		margin-top: 0px; 
+	}
+	.webdoor .content .title img{
+		width: 50%;
+	}
+	.content .container .right img{
+		margin-top: -395px;
+	}
+	.webdoor .content .container .baixar-app{
+		transform: translateY(30px) translateX(60px);
+	}
+}
