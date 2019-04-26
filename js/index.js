@@ -29,6 +29,7 @@ $(document).ready(function() {
        }
 
    }
+
 $(this).scroll(animandoDados);
 
 	$(window).on('load', function(){
@@ -92,5 +93,6 @@ function openMenu(){
 	$(".menu-burger").on("click", function(){
 		$(this).toggleClass("open");
 		$(".menu").toggleClass("open");
+		$("html").toggleClass('menu-active');
 	})
 }

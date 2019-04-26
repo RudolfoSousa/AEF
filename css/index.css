@@ -51,6 +51,15 @@ html.loading{
 	text-align: center;
 }
 
+html main,
+html footer{
+	transition: .5s;
+}
+html.menu-active main,
+html.menu-active footer{
+	filter: blur(2px) grayscale(90%);
+}
+
 header{
 	position: fixed;
 	padding-top: 40px;
@@ -80,7 +89,6 @@ nav{
 	bottom: 0;
 	z-index: 11;
 	transition: .7s;
-	display: none;
 }
 .loading.close{
 	transform: scale(0);
@@ -375,7 +383,7 @@ footer .footer h5{
 }
 .modal-login .modal-content .form-control{
 	position: relative;
-	width: 50%;
+	width: 80%;
 	margin: 0 auto;
 	margin-bottom: 16px;
 }

@@ -96,3 +96,100 @@
 		width: 36px;
 	}
 }
+
+@media(max-width: 500px){
+	header .container > .flex > a > img{
+		width: 80%;
+	}
+	nav .btn-login a {
+    margin-right: 30px;
+	}
+	.menu-burger{
+		height: 30px;
+		width: 30px;
+	}
+	.menu-burger.open{
+		right: -30px;
+	}
+	.content .container .right img{
+		display: none;
+	}
+	.content .container .right{
+		width: 0;
+		flex: 0;
+	}
+	.content .container .left{
+		width: 100%;
+		text-align: left;
+	}
+	.content .container h3 span,
+	.depoimentos .container h3 span{
+		font-weight: 700;
+	}
+	.content .container h3,
+	.depoimentos .container h3{
+		font-size: 27px;
+	}
+	.content .container p{
+		font-size: 16px;
+	}
+	.numeros .container > .flex{
+		flex-direction: column;
+		border: 0;
+	}
+	.numeros .container .numeros-item{
+		width: 100%;
+		border: 1px solid #d1d1d1;
+		border-radius: 9px;
+		margin: 20px 0;
+	}
+	.numeros .container .numeros-item:last-child{
+		border-right: 1px solid #d1d1d1;
+	}
+	.numeros .container{
+		margin: 50px auto;
+	}
+	.baixeApp .container a{
+		font-size: 18px;
+		padding: 15px 45px;
+	}
+
+	.menu{
+		margin: 0;
+		box-shadow: 0px -5px 5px 0px rgba(0,0,0,.9);
+	}
+	.menu div{
+		border-bottom: 1px solid rgba(255,255,255,.1);
+	}
+	.menu div a{
+		display: block;
+		padding: 15px 40px;
+		margin: 0;
+	}
+	.modal-login .modal-content{
+		width: 90%;
+	}
+}
+
+@media(max-width: 475px){
+	nav a{
+		font-size: 9px;
+	}
+	.menu-burger {
+    height: 25px;
+    width: 25px;
+	}
+	.webdoor .baixar-app a{
+		padding: 13px 25px;
+	}
+	.baixeApp .container a{
+		padding: 15px 30px;
+		font-size: 15px;
+	}
+	.slider .swiper-slide .content p{
+		font-size: 12px;
+	}
+	.slider .swiper-slide .content .title{
+		font-size: 25px;
+	}
+}
