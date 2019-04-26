@@ -7,6 +7,9 @@ body,
 html{
 	overflow-x: hidden;
 }
+body{
+	overflow-y: hidden;
+}
 .container{
 	width: 60%;
 	margin: 0 auto;
@@ -23,6 +26,9 @@ html{
 }
 .flex-align-items-center{
 	align-items: center;
+}
+.flex-column{
+	flex-direction: column;
 }
 .btn{
 	padding: 9px 35px;
@@ -75,7 +81,7 @@ nav .btn-login a:hover{
 }
 
 .webdoor{
-	height: 100vh;
+	height: 120vh;
 	background-image: url(../imgs/webdoor.png);
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -231,4 +237,58 @@ nav .btn-login a:hover{
 .slider .swiper-slide .content p{
 	color: #3f3f3f;
 	font-size: 18px;
+}
+
+.baixeApp .container{
+		text-align: center;
+		margin-bottom: 80px;
+}
+.baixeApp .container p{
+	color: #303030;
+	font-size: 30px;
+	margin-top: 80px;
+	margin-bottom: 40px;
+}
+.baixeApp .container a{
+	background: #1e5799; /* Old browsers */
+	background: -moz-linear-gradient(left, #1e5799 0%, #e1004a 0%, #cf092a 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(left, #1e5799 0%,#e1004a 0%,#cf092a 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to right, #1e5799 0%,#e1004a 0%,#cf092a 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1e5799', endColorstr='#cf092a',GradientType=1 ); /* IE6-9 */
+	color: #ffffff;
+	text-decoration: none;
+	font-size: 24px;
+	text-transform: uppercase;
+	padding: 18px 35px;
+	font-weight: 300;
+	text-align: center;
+}
+
+footer .footer{
+	background-color: #333333;
+	padding-top: 60px;
+}
+footer .footer .footer-bottom{
+	background-color: #212020;
+	text-align: center;
+	padding: 20px 0;
+}
+
+footer .footer .footer-column{
+	width: 33%;
+	margin-bottom: 60px;
+}
+footer .footer a{
+	font-weight: 300;
+	font-size: 18px;
+	color: #ffffff;
+	text-decoration: none;
+}
+footer .footer a.yellow{
+	color: #eda71f;
+}
+footer .footer h5{
+	font-size: 18px;
+	font-weight: 700;
+	margin-bottom: 25px;
 }
