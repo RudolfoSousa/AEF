@@ -1,6 +1,7 @@
 <html>
 	<head>
 		<meta charset="utf8">
+		<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1">
 		<title>Amor e Fé - Início</title>
 		<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 		<link href="https://fonts.googleapis.com/css?family=Poppins:300,400,600,700" rel="stylesheet">
@@ -50,7 +51,7 @@
 					<a href="">
 						<img src="imgs/logo.png" alt="Amor e fé">
 					</a>
-					<nav class="flex flex-align-items-center flex-space-between">
+					<nav class="flex flex-align-items-center flex-space-between flex-between-mobile">
 						<div class="flex menu">
 							<div>
 								<a href="">Blog</a>
@@ -70,6 +71,11 @@
 						</div>
 						<div class="btn-login">
 							<a class="btn login">Já tem perfil? <strong>Entrar</strong></a>
+						</div>
+						<div class="menu-burger mobile">
+							<div class="top"></div>
+							<div class="middle"></div>
+							<div class="bottom"></div>
 						</div>
 					</nav>
 				</div>
@@ -320,7 +326,11 @@
 			    1440: {
 			      slidesPerView: 2.5,
 			      spaceBetween: 30
-			    }
+			    },
+					1024: {
+						slidesPerView: 1.5,
+						slidesPerGroup: 1,
+					}
 			  }
 		  })
 		  </script>

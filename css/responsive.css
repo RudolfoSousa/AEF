@@ -28,3 +28,71 @@
     padding: 9px 25px;
 	}
 }
+
+@media(max-width: 1024px){
+	.mobile{
+		display: block;
+	}
+	.webdoor .content .title img{
+		width: 100%;
+	}
+	.numeros .container .numeros-item p {
+    font-size: 16px;
+	}
+	.menu{
+		position: fixed;
+		right: -100%;
+		top: 0;
+		bottom: 0;
+		background-color: #553b2f;
+		display: flex;
+		flex-direction: column;
+		padding-top: 36px;
+		transition: .5s;
+	}
+	.menu.open{
+		right: 0;
+	}
+	nav .btn-login a{
+		margin-right: 50px;
+	}
+	.webdoor {
+    height: 100vh;
+		background-position: -400px 0;
+	}
+	.content .container{
+		text-align: center;
+	}
+	.webdoor .content .container .baixar-app {
+    transform: translateY(0px) translateX(0);
+	}
+}
+
+@media(max-width: 768px){
+	.webdoor {
+		background-position: -300px 0;
+	}
+	.content .container .right img {
+    margin-top: -100px;
+	}
+	.numeros .container .numeros-item p.numeros {
+    font-size: 20px;
+	}
+	.numeros .container .numeros-item p {
+    font-size: 9px;
+	}
+	.slider .swiper-container {
+    width: 100%;
+    margin: 0 0 0 0;
+	}
+	.footer .container > .flex{
+		flex-direction: column;
+	}
+	footer .footer .footer-column{
+		width: 100%;
+		text-align: center;
+	}
+	.menu-burger{
+		width: 36px;
+	}
+}

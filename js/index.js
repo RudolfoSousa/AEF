@@ -2,6 +2,7 @@ $(document).ready(function() {
   menuScroll();
   loginModal();
 	inputLogin();
+	openMenu();
 
 	$(window).on('load', function(){
 		$(".loading").addClass("close");
@@ -57,5 +58,11 @@ function inputLogin() {
 			}, 500)
 		}
 	})
+}
 
+function openMenu(){
+	$(".menu-burger").on("click", function(){
+		$(this).toggleClass("open");
+		$(".menu").toggleClass("open");
+	})
 }
