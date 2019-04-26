@@ -33,12 +33,16 @@ body{
 .btn{
 	padding: 9px 35px;
 	border-radius: 2rem;
+	cursor: pointer;
 }
 .yellow{
 	color: #eda71f;
 }
 .red{
 	color: #cc2529;
+}
+.center-text{
+	text-align: center;
 }
 
 header{
@@ -303,4 +307,121 @@ footer .footer h5{
 	font-size: 18px;
 	font-weight: 700;
 	margin-bottom: 25px;
+}
+
+.modal-login{
+	position: fixed;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-color: rgba(0,0,0,.6);
+	z-index: 10;
+	transform: scale(0);
+	border-radius: 50%;
+	opacity: 0;
+	transition: .5s;
+}
+.modal-login.open{
+	transform: scale(1);
+	opacity: 1;
+	border-radius: 0%;
+}
+.modal-login .modal-content{
+	background-color: #ffffff;
+	padding: 35px 0px 0px 0px;
+	width: 30%;
+	border-radius: 10px;
+	position: relative;
+}
+.modal-login .modal-content .title-modal{
+	color: #573c30;
+	font-size: 21px;
+	text-transform: uppercase;
+	text-align: center;
+	margin-bottom: 40px;
+}
+.modal-login .modal-content .form-control{
+	position: relative;
+	width: 50%;
+	margin: 0 auto;
+	margin-bottom: 16px;
+}
+.modal-login .modal-content .form-control img.img-campo{
+	position: absolute;
+	width: 16px;
+	height: 10px;
+	top: 50%;
+	transform: translate(0, -50%);
+	left: 35px;
+}
+.modal-login .modal-content .form-control img.img-campo.key{
+	width: 22px;
+	height: 8px;
+	left: 30px;
+}
+.modal-login .modal-content input{
+	background-color: #573c30;
+	padding: 12px 35px;
+	width: 100%;
+	border: 0;
+	border-bottom: 3px solid #3e2b22;
+	border-radius: 1.5rem;
+	position: relative;
+	outline: none;
+	text-indent: 15px;
+	color: #d7cdc9;
+}
+.modal-login .modal-content label{
+	position: absolute;
+	cursor: pointer;
+	top: 50%;
+	transform: translate(0%, -50%);
+	left: 55px;
+	color: #d7cdc9;
+	font-size: 18px;
+}
+.modal-login .modal-content a.forget{
+	color: #573c30;
+	font-size: 14px;
+	text-align: center;
+}
+.modal-login .modal-content button{
+	width: 210px;
+	margin: 0 auto;
+	background-color: #dba012;
+	border: 1px solid #dba012;
+	box-sizing: border-box;
+	color: #ffffff;
+	font-size: 18px;
+	text-transform: uppercase;
+	margin-top: 18px;
+	margin-bottom: 30px;
+	cursor: pointer;
+	transition: .2s;
+}
+.modal-login .modal-content button:hover{
+	background-color: transparent;
+	color: #dba012;
+}
+.modal-login .modal-footer{
+	text-align: center;
+	color: #ffffff;
+	font-size: 16px;
+	background-color: #ed1f41;
+	padding: 15px 0;
+	border-radius: 0 0 10px 10px;
+}
+.modal-login .modal-footer a{
+	color: #ffffff;
+	text-decoration: none;
+}
+.modal-login .close-modal{
+	position: absolute;
+	right: 30px;
+	top: 30px;
+	cursor: pointer;
 }
