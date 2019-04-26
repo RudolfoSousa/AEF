@@ -1,3 +1,8 @@
+@media(max-width: 1440px){
+	.container{
+		width: 80%;
+	}
+}
 @media(max-width: 1366px){
 	.webdoor{
 		height: 123vh;
@@ -6,7 +11,7 @@
 		width: 85%;
 	}
 	.webdoor .content{
-		margin-top: 0px; 
+		margin-top: 0px;
 	}
 	.webdoor .content .title img{
 		width: 50%;
