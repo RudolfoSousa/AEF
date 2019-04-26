@@ -68,6 +68,10 @@ nav a{
 	text-transform: uppercase;
 	text-decoration: none;
 	margin: 0 16px;
+	transition: .2s;
+}
+nav a:hover{
+	text-decoration: underline;
 }
 nav .btn-login a{
 	background-color: #ed1f41;
@@ -262,6 +266,10 @@ nav .btn-login a:hover{
 	padding: 18px 35px;
 	font-weight: 300;
 	text-align: center;
+	transition: .2s;
+}
+.baixeApp .container a:hover{
+	box-shadow: 0px 5px 10px 0px rgba(0,0,0,.5)
 }
 
 footer .footer{
@@ -283,6 +291,10 @@ footer .footer a{
 	font-size: 18px;
 	color: #ffffff;
 	text-decoration: none;
+	transition: .2s;
+}
+footer .footer a:hover{
+	margin-left: 10px;
 }
 footer .footer a.yellow{
 	color: #eda71f;
