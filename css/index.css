@@ -109,7 +109,8 @@ nav .btn-login a{
 }
 nav .btn-login a:hover{
 	background-color: transparent;
-	color: #ed1f41;
+	color: #ffffff;
+	text-decoration: none;
 }
 
 .webdoor{
@@ -120,6 +121,7 @@ nav .btn-login a:hover{
 	display: flex;
 	justify-content: center;
 	flex-direction: column;
+	background-attachment: fixed;
 }
 .webdoor .content{
 	display: flex;
@@ -239,9 +241,9 @@ nav .btn-login a:hover{
 }
 
 .slider .swiper-container {
-    width: 80%;
+    width: 100%;
     height: 480px;
-		margin: 0 0 0 20%;
+		margin: 0 0 0 0;
 }
 .slider .depoimento-item{
   border-radius: 10px;
