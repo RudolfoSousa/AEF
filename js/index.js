@@ -2,6 +2,12 @@ $(document).ready(function() {
   menuScroll();
   loginModal();
 	inputLogin();
+
+	$(window).on('load', function(){
+		$(".loading").addClass("close");
+		$("html").removeClass("loading");
+	})
+
 });
 
 function menuScroll() {

@@ -10,6 +10,9 @@ html{
 body{
 	overflow-y: hidden;
 }
+html.loading{
+	overflow: hidden;
+}
 .container{
 	width: 60%;
 	margin: 0 auto;
@@ -62,6 +65,24 @@ nav{
 	width: 100%;
 }
 
+.loading{
+	position: fixed;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-color: #553b2f;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	z-index: 11;
+	transition: .2s;
+	display: none;
+}
+.loading.close{
+	transform: scale(0);
+	opacity: 0;
+}
 .menu{
 	margin-left: 16px;
 }
