@@ -23,3 +23,8 @@
 		transform: translateY(30px) translateX(60px);
 	}
 }
+@media(max-width: 1280px){
+	.btn {
+    padding: 9px 25px;
+	}
+}
