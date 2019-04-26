@@ -4,6 +4,33 @@ $(document).ready(function() {
 	inputLogin();
 	openMenu();
 
+	var offsetDados = $('.divDados').offset().top;
+
+   function animandoDados() {
+       var scrollTop = $(this).scrollTop();
+
+       if (scrollTop > offsetDados - 650) {
+           $('.count, .countVirgula').css({
+               display: 'inline'
+           })
+           $('[data-js="spanNone"]').hide();
+           $('.count').each(function () {
+               $(this).prop('Counter', -1).animate({
+                   Counter: $(this).text()
+               }, {
+                   duration: 2000,
+                   easing: 'swing',
+                   step: function (now) {
+                       $(this).text(now.toFixed(3));
+                   }
+               });
+           });
+           $(this).off('scroll');
+       }
+
+   }
+$(this).scroll(animandoDados);
+
 	$(window).on('load', function(){
 		$(".loading").addClass("close");
 		$("html").removeClass("loading");
@@ -14,6 +41,7 @@ $(document).ready(function() {
 function menuScroll() {
   $(document).on("scroll", function() {
     var scrollTop = $(window).scrollTop();
+		console.log(scrollTop);
     if (scrollTop >= 100) {
       $("header").addClass("active");
     } else {

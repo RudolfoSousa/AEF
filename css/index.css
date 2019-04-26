@@ -79,7 +79,7 @@ nav{
 	top: 0;
 	bottom: 0;
 	z-index: 11;
-	transition: .2s;
+	transition: .7s;
 	display: none;
 }
 .loading.close{
@@ -325,6 +325,9 @@ footer .footer a{
 }
 footer .footer a:hover{
 	margin-left: 10px;
+}
+footer .footer .footer-bottom a:hover{
+	margin-left: 0;
 }
 footer .footer a.yellow{
 	color: #eda71f;
