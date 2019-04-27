@@ -73,7 +73,8 @@
 	.content .container{
 		text-align: center;
 	}
-	.sobre .content .container{
+	.sobre .content .container,
+	.porque.content .container{
 		text-align: left;
 	}
 	.webdoor .content .container .baixar-app {
@@ -185,8 +186,8 @@
 		width: 90%;
 	}
 	.webdoor-sobre {
-    	height: 100vh;
-	    background-position: -830px;
+    	height: 70vh;
+	    background-position: -530px;
 	}
 	.webdoor.webdoor-sobre .container > .flex{
 		flex-direction: column-reverse;
@@ -219,8 +220,8 @@
     	font-size: 12px;
 	}
 	.webdoor-sobre {
-    	height: 100vh;
-    	background-position: -910px;
+    	height: 70vh;
+    	background-position: -580px;
 	}
 }
 
@@ -242,6 +243,6 @@
     	font-size: 20px;
 	}
 	.webdoor-sobre {
-    	background-position: -840px 0;
+    	background-position: -540px 0;
 	}
 }
