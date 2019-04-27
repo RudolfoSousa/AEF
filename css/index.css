@@ -45,7 +45,7 @@ html.loading{
 	color: #eda71f;
 }
 .red{
-	color: #cc2529;
+	color: #cc2529 !important;
 }
 .center-text{
 	text-align: center;
@@ -506,3 +506,42 @@ footer .footer h5{
 	transform: translate(0, -50%) rotate(-45deg);
 	top: 50%;
 }
+
+/*Pagina de Sobre*/
+
+.webdoor-sobre{
+	background-image: url(../imgs/banner.png);
+	background-position: center center;
+	height: 40vh;
+}
+.webdoor-sobre{
+	text-align: center;
+}
+.webdoor-sobre h1{
+	color: #ffffff;
+	font-size: 30px;
+	font-weight: 400;
+}
+.webdoor-sobre .baixar-app a,
+.webdoor-sobre .button a{
+	display: block;
+	margin: 50px 15px 0px 15px;
+}
+.sobre .content .container h3{
+	text-transform: initial;
+}
+.sobre .content .container p{
+	color: #303030;
+	font-size: 18px;
+	margin: 23px 0;
+}
+.sobre .content .container p span.red{
+	font-size: 30px;
+}
+.sobre .content .container p.inside{
+	margin-left: 20px;
+}
+.sobre .depoimentos{
+	margin-top: 50px;
+}
+/*Pagina de Sobre*/

@@ -7,6 +7,9 @@
 	.webdoor{
 		height: 123vh;
 	}
+	.webdoor-sobre{
+		height: 80vh;
+	}
 	.container{
 		width: 85%;
 	}
@@ -25,7 +28,10 @@
 }
 @media(max-width: 1280px){
 	.btn {
-    padding: 9px 25px;
+    	padding: 9px 25px;
+	}
+	.webdoor-sobre {
+    	height: 50vh;
 	}
 }
 
@@ -57,11 +63,18 @@
 		margin-right: 50px;
 	}
 	.webdoor {
-    height: 100vh;
+    	height: 100vh;
 		background-position: -400px 0;
+	}
+	.webdoor-sobre {
+    	height: 40vh;
+    	background-position: center center;
 	}
 	.content .container{
 		text-align: center;
+	}
+	.sobre .content .container{
+		text-align: left;
 	}
 	.webdoor .content .container .baixar-app {
     transform: translateY(0px) translateX(0);
@@ -71,6 +84,9 @@
 @media(max-width: 768px){
 	.webdoor {
 		background-position: -300px 0;
+	}
+	.webdoor-sobre {
+    	background-position: center center; 
 	}
 	.content .container .right img {
     margin-top: -100px;
@@ -153,7 +169,6 @@
 		font-size: 18px;
 		padding: 15px 45px;
 	}
-
 	.menu{
 		margin: 0;
 		box-shadow: 0px -5px 5px 0px rgba(0,0,0,.9);
@@ -168,6 +183,13 @@
 	}
 	.modal-login .modal-content{
 		width: 90%;
+	}
+	.webdoor-sobre {
+    	height: 100vh;
+	    background-position: -830px;
+	}
+	.webdoor.webdoor-sobre .container > .flex{
+		flex-direction: column-reverse;
 	}
 }
 
@@ -192,6 +214,14 @@
 	.slider .swiper-slide .content .title{
 		font-size: 25px;
 	}
+	.webdoor-sobre .baixar-app a,
+	.webdoor-sobre .button a {
+    	font-size: 12px;
+	}
+	.webdoor-sobre {
+    	height: 100vh;
+    	background-position: -910px;
+	}
 }
 
 @media( max-width: 375px){
@@ -210,5 +240,8 @@
 	}
 	.webdoor .subtitle h2 {
     	font-size: 20px;
+	}
+	.webdoor-sobre {
+    	background-position: -840px 0;
 	}
 }

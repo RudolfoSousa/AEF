@@ -4,9 +4,8 @@ $(document).ready(function() {
 	inputLogin();
 	openMenu();
 
-	var offsetDados = $('.divDados').offset().top;
-
    function animandoDados() {
+	   var offsetDados = $('.divDados').offset().top;
        var scrollTop = $(this).scrollTop();
 
        if (scrollTop > offsetDados - 650) {
@@ -27,14 +26,13 @@ $(document).ready(function() {
            });
            $(this).off('scroll');
        }
-
    }
 
 $(this).scroll(animandoDados);
 
 	$(window).on('load', function(){
 		$(".loading").addClass("close");
-		$("html").removeClass("loading");
+		console.log("Entrou")
 	})
 
 });
