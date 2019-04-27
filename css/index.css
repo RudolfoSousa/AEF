@@ -129,7 +129,6 @@ nav .btn-login a:hover{
 	display: flex;
 	justify-content: center;
 	flex-direction: column;
-	background-attachment: fixed;
 }
 .webdoor .content{
 	display: flex;

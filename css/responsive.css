@@ -206,6 +206,7 @@
 	}
 	.webdoor{
 		padding-bottom: 15px;
+	    background-position: -165px 0;
 	}
 	.webdoor .subtitle h2 {
     	font-size: 20px;
