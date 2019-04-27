@@ -507,7 +507,7 @@ footer .footer h5{
 	top: 50%;
 }
 
-/*Pagina de Sobre*/
+/*Pagina de Sobre e Porque*/
 
 .webdoor-sobre{
 	background-image: url(../imgs/banner.png);
@@ -527,21 +527,30 @@ footer .footer h5{
 	display: block;
 	margin: 50px 15px 0px 15px;
 }
-.sobre .content .container h3{
+.sobre .content .container h3,
+.porque .content .container h3{
 	text-transform: initial;
 }
-.sobre .content .container p{
+.sobre .content .container p,
+.porque .content .container p{
 	color: #303030;
 	font-size: 18px;
 	margin: 23px 0;
 }
-.sobre .content .container p span.red{
+.sobre .content .container p span.red,
+.porque .content .container p span.red{
 	font-size: 30px;
 }
-.sobre .content .container p.inside{
+.sobre .content .container p.inside,
+.porque .content .container p.inside{
 	margin-left: 20px;
 }
-.sobre .depoimentos{
+.sobre .depoimentos,
+.porque .depoimentos{
 	margin-top: 50px;
 }
-/*Pagina de Sobre*/
+.porque .content h5{
+	color: #303030;
+	font-size: 18px;
+}
+/*Pagina de Sobre e Porque*/
