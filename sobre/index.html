@@ -1,0 +1,191 @@
+<html>
+	<head>
+		<meta charset="utf8">
+		<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1">
+		<title>Amor e Fé - Sobre</title>
+		<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Poppins:300,400,600,700" rel="stylesheet">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.5.0/css/swiper.css">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.5.0/css/swiper.min.css">
+		<link rel="stylesheet" href="../css/index.css">
+		<link rel="stylesheet" href="../css/responsive.css">
+	</head>
+		<div async class="loading">
+			<img async class="load" src="../imgs/load.gif" alt="">
+		</div>
+	<body>
+		<div class="modal-login">
+			<div class="modal-content">
+				<div class="close-modal">
+					<img src="../imgs/close.png" alt="">
+				</div>
+				<p class="title-modal">
+					Acesse sua conta
+				</p>
+				<form action="">
+					<div class="form-control">
+						<input id="mail" class="mail" type="email">
+						<img class="img-campo" src="../imgs/mail.png" alt="">
+						<label for="mail">Digite seu email</label>
+					</div>
+					<div class="form-control">
+						<input id="senha" class="password" type="password">
+						<img class="img-campo key" src="../imgs/key.png" alt="">
+						<label for="senha" >Digite sua senha</label>
+					</div>
+				</form>
+				<div class="center-text">
+					<a href="" class="forget">Esqueceu a senha?</a>
+				</div>
+				<div class="center-text">
+					<button class="btn">Entrar</button>
+				</div>
+				<div class="modal-footer">
+					<p>Ainda não está no Amor e Fé? <strong><a href="">Cadastre-se</a></strong> agora!</p>
+				</div>
+			</div>
+		</div>
+		<header>
+			<div class="container">
+				<div class="flex flex-align-items-center">
+					<a href="">
+						<img src="../imgs/logo.png" alt="Amor e fé">
+					</a>
+					<nav class="flex flex-align-items-center flex-space-between flex-between-mobile">
+						<div class="flex menu">
+							<div>
+								<a href="">Blog</a>
+							</div>
+							<div>
+								<a href="">Sobre</a>
+							</div>
+							<div>
+								<a href="">Por que</a>
+							</div>
+							<div>
+								<a href="">Histórias inesquecíveis</a>
+							</div>
+							<div>
+								<a href="">Usuários autenticados</a>
+							</div>
+						</div>
+						<div class="btn-login">
+							<a class="btn login">Já tem perfil? <strong>Entrar</strong></a>
+						</div>
+						<div class="menu-burger mobile">
+							<div class="top"></div>
+							<div class="middle"></div>
+							<div class="bottom"></div>
+						</div>
+					</nav>
+				</div>
+			</div>
+		</header>
+		<main>
+			
+		</main>
+		<footer>
+			<div class="baixeApp">
+				<div class="container">
+						<p>Contrua seu namora <spam class="yellow">cristão</spam></p>
+						<a href="" class="btn">
+							Baixe o aplicativo no googleplay
+						</a>
+					</div>
+				</div>
+					<div class="footer">
+						<div class="container">
+							<div class="flex flex-justify-content felx-space-between">
+								<div class="footer-column">
+									<h5 class="red">Conheça nossa empresa</h5>
+									<div class="lista-menu-footer flex flex-column flex flex-column">
+										<a href="">
+											Sobre o Amor e Fé
+										</a>
+										<a href="">
+											Por que o Amor e Fé?
+										</a>
+									</div>
+								</div>
+								<div class="footer-column">
+									<h5 class="red">Tire suas dúvidas</h5>
+									<div class="lista-menu-footer flex flex-column">
+										<a href="">
+											Políticas de Privacidade
+										</a>
+										<a href="">
+											Políticas de termos de uso
+										</a>
+										<a href="">
+											Ajuda
+										</a>
+									</div>
+								</div>
+								<div class="footer-column">
+									<h5 class="red">Minha conta</h5>
+									<div class="lista-menu-footer flex flex-column">
+										<a href="">
+											Alterar perfil
+										</a>
+										<a href="" class="yellow">
+											Virar Ouro
+										</a>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="footer-bottom">
+							<a href="">
+								<img src="../imgs/logo-footer.png" alt="">
+							</a>
+						</div>
+					</div>
+			</div>
+		</footer>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.5.0/js/swiper.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.5.0/js/swiper.min.js"></script>
+		<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+		<script>
+		AOS.init();
+		  var mySwiper = new Swiper ('.swiper-container', {
+		    // Optional parameters
+		    direction: 'horizontal',
+		    loop: false,
+
+		    // If we need pagination
+		    pagination: {
+		      el: '.swiper-pagination',
+		    },
+
+		    // Navigation arrows
+		    navigation: {
+		      nextEl: '.swiper-button-next',
+		      prevEl: '.swiper-button-prev',
+		    },
+
+		    // And if we need scrollbar
+		    scrollbar: {
+		      el: '.swiper-scrollbar',
+		    },
+		    slidesPerView: 3.5,
+				slidesPerGroup: 3,
+		    spaceBetween: 40,
+				breakpoints: {
+			    // when window width is <= 1366px
+			    1440: {
+			      slidesPerView: 2.5,
+			      spaceBetween: 30
+			    },
+					1024: {
+						slidesPerView: 1.5,
+						slidesPerGroup: 1,
+					}
+			  }
+		  })
+		  </script>
+			<script src="../js/jquery.animateNumber.js"></script>
+		<script src="../js/index.js"></script>	
+	</body>
+
+</html>

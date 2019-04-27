@@ -193,3 +193,21 @@
 		font-size: 25px;
 	}
 }
+
+@media( max-width: 375px){
+	nav .btn-login a {
+    	margin-right: 10px;
+	}
+	.webdoor .baixar-app a {
+    	font-size: 13px;
+	}
+	.webdoor .title{
+		margin-top: 100px;
+	}
+	.webdoor{
+		padding-bottom: 15px;
+	}
+	.webdoor .subtitle h2 {
+    	font-size: 20px;
+	}
+}

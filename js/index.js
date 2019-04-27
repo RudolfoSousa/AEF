@@ -1,6 +1,6 @@
 $(document).ready(function() {
-  menuScroll();
-  loginModal();
+  	menuScroll();
+	loginModal();
 	inputLogin();
 	openMenu();
 
