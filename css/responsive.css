@@ -246,3 +246,9 @@
     	background-position: -540px 0;
 	}
 }
+
+@media(max-width: 374px){
+	.btn {
+    	padding: 9px 10px;
+	}
+}

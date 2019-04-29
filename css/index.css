@@ -361,6 +361,11 @@ footer .footer h5{
 	opacity: 0;
 	transition: .5s;
 }
+.modal-login.modal-cadastro.open{
+	transform: scale(1);
+	opacity: 1;
+	border-radius: 0%;
+}
 .modal-login.open{
 	transform: scale(1);
 	opacity: 1;
@@ -554,3 +559,7 @@ footer .footer h5{
 	font-size: 18px;
 }
 /*Pagina de Sobre e Porque*/
+
+.cadastrar{
+	cursor: pointer;
+}

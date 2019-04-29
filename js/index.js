@@ -1,6 +1,7 @@
 $(document).ready(function() {
   	menuScroll();
 	loginModal();
+	cadastroModal();
 	inputLogin();
 	openMenu();
 
@@ -52,12 +53,22 @@ function menuScroll() {
 function loginModal() {
   $(".btn.login").on("click", function(e) {
 		e.preventDefault();
-		$(".modal-login").addClass('open');
+		$(".modal-login.login").addClass('open');
 	});
 	$(".modal-login .close-modal").on("click", function() {
-		$(".modal-login").removeClass('open');
-	})
+		$(".modal-login.login").removeClass('open');
+	});
 };
+
+function cadastroModal(){
+	$(".cadastrar").on("click", function(e) {
+		e.preventDefault();
+		$(".modal-login.modal-cadastro").addClass('open');
+	});
+	$(".modal-login .close-modal").on("click", function() {
+		$(".modal-login.modal-cadastro").removeClass('open');
+	})
+}
 
 function inputLogin() {
 	$(".modal-login .modal-content input").focusin(function(){
